@@ -1,8 +1,8 @@
-package sintaxes;
+package syntaxes;
 
 import java.util.Scanner;
 
-public class SaidaFormatada {
+public class FormattedOutput {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

@@ -24,7 +24,16 @@ public class GameBoardMain {
 //        return list1;
 //    }
 
-    // Código refatorado - Metodo para obter as células marcadas como FLAGGED
+    // Primeira refatoração
+//    public List<int[]> getFlaggedCells() {
+//        List<int[]> flaggedCells = new ArrayList<int[]>();
+//        for (int[] cell : gameBoard)
+//            if (cell[VALUE_STATUS] == FLAGGED)
+//                flaggedCells.add(cell);
+//        return flaggedCells;
+//    }
+
+    // Refatoração final - Metodo para obter as células marcadas como FLAGGED
     public List<Cell> getFlaggedCells() {
         List<Cell> flaggedCells = new ArrayList<>();
         for (Cell cell : gameBoard) {

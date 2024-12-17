@@ -1,4 +1,4 @@
-package sintaxes;
+package syntaxes;
 
 public class HelloWorld {
 

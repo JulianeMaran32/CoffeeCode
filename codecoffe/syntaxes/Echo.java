@@ -1,6 +1,6 @@
-package sintaxes;
+package syntaxes;
 
-public class Eco {
+public class Echo {
 
     public static void main(String[] args) {
         for (int i = 0; i < args.length; i++)
