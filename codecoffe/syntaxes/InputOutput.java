@@ -1,8 +1,8 @@
-package sintaxes;
+package syntaxes;
 
 import java.util.Scanner;
 
-public class EntradaSaida {
+public class InputOutput {
 
     public static void main(String[] args) {
 
