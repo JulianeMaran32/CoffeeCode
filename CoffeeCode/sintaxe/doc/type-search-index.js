@@ -1,1 +1,0 @@
-typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"sintaxe","l":"Eco"},{"p":"sintaxe","l":"EntradaSaida"},{"p":"sintaxe","l":"Escopo"},{"p":"sintaxe","l":"HelloWorld"},{"p":"sintaxe","l":"SaidaFormatada"}];updateSearchResults();
