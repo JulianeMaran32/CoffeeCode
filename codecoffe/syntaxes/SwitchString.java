@@ -12,16 +12,20 @@ public class SwitchString {
         if (args.length > 0) {
             switch (args[0].toLowerCase()) {
                 case "data":
-                    System.out.println(DateFormat.getDateInstance().format(new Date()));
+                    System.out.println(DateFormat.getDateInstance()
+                            .format(new Date())); // 20 de dez. de 2024
                     break;
                 case "hora":
-                    System.out.println(DateFormat.getTimeInstance().format(new Date()));
+                    System.out.println(DateFormat.getTimeInstance()
+                            .format(new Date())); // 20:07:58
                     break;
                 case "nova-data":
-                    System.out.println(LocalDate.now().format(DateTimeFormatter.ofPattern("dd/MMMM/yyyy")));
+                    System.out.println(LocalDate.now()
+                            .format(DateTimeFormatter.ofPattern("dd/MMMM/yyyy"))); // 20/dezembro/2024
                     break;
                 case "nova-hora":
-                    System.out.println(LocalTime.now().format(DateTimeFormatter.ofPattern("hh:mm:ss")));
+                    System.out.println(LocalTime.now()
+                            .format(DateTimeFormatter.ofPattern("hh:mm:ss"))); // 08:08:46
                     break;
                 default:
                     System.out.println("Comando não reconhecido!");
