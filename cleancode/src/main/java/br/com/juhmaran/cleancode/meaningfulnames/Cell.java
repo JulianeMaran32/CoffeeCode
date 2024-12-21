@@ -1,4 +1,4 @@
-package br.com.juhmaran.cleancode;
+package br.com.juhmaran.cleancode.meaningfulnames;
 
 public class Cell {
 

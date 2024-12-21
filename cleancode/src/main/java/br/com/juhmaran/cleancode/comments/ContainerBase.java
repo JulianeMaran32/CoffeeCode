@@ -1,4 +1,4 @@
-package br.com.juhmaran.cleancode;
+package br.com.juhmaran.cleancode.comments;
 
 import org.apache.catalina.*;
 import org.apache.catalina.core.StandardPipeline;

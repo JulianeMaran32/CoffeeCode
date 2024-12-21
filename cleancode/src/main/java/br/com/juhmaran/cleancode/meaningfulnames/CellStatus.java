@@ -1,4 +1,4 @@
-package br.com.juhmaran.cleancode;
+package br.com.juhmaran.cleancode.meaningfulnames;
 
 /**
  * Constantes para os estados das células
