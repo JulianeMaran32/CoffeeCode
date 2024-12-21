@@ -1,4 +1,4 @@
-package cleancode;
+package br.com.juhmaran.cleancode;
 
 import java.util.ArrayList;
 import java.util.List;
