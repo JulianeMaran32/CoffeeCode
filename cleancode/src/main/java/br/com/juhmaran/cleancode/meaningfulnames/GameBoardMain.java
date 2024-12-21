@@ -1,4 +1,4 @@
-package cleancode;
+package br.com.juhmaran.cleancode.meaningfulnames;
 
 import java.util.ArrayList;
 import java.util.List;

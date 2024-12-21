@@ -1,4 +1,4 @@
-package fitnesse.responders.run;
+package br.com.juhmaran.cleancode.functions.fitnesse.responders.run;
 
 public class SuiteResponder {
 

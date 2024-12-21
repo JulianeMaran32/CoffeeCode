@@ -1,4 +1,4 @@
-package cleancode;
+package br.com.juhmaran.cleancode.functions;
 
 public class Payroll {
 
