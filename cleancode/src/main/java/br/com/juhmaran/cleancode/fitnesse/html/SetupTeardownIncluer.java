@@ -1,4 +1,4 @@
-package br.com.juhmaran.cleancode.functions.fitnesse.html;
+package br.com.juhmaran.cleancode.fitnesse.html;
 
 public class SetupTeardownIncluer {
 
