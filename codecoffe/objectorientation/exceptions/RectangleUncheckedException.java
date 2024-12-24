@@ -1,11 +1,11 @@
 package objectorientation.exceptions;
 
 /**
- * Classe para representação melhorada do Retângulo com Exceção Monitorada
+ * Classe para representação melhorada do Retângulo
  *
  * @author Juliane Maran
  */
-public class RectangleMonitoredException {
+public class RectangleUncheckedException {
 
     /**
      * Dimensões são campos privados
@@ -16,26 +16,26 @@ public class RectangleMonitoredException {
     /**
      * Construtor 'default' aciona outro construtor com 'this'
      */
-    public RectangleMonitoredException() throws Exception {
+    public RectangleUncheckedException() {
         this(2, 1);
     }
 
     /**
      * Construtor parametrizado
      */
-    public RectangleMonitoredException(double width, double height) throws Exception {
+    public RectangleUncheckedException(double width, double height) {
         this.setSize(width, height);
     }
 
-    public void setSize(double width, double height) throws Exception {
+    public void setSize(double width, double height) {
         // Verifica valor das variáveis locais
         if (width >= 0 && height >= 0) { // Uso explícito do 'this'
             // Campos recebem valor das variáveis locais
             this.width = width;
             this.height = height;
         }
-        // Se dimensões forem inválidas, deve lança exceção monitorada
-        throw new Exception("Invalid dimensions!");
+        // Se dimensões forem inválidas, deve lança exceção NÃO monitorada
+        throw new RuntimeException("Invalid dimensions!");
     }
 
     /**
